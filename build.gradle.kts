@@ -36,7 +36,9 @@ dependencies {
 	//sql config
 	implementation("mysql:mysql-connector-java:8.0.27")
 	//hikari config
-	implementation( files("C:\\Users\\patlo\\Desktop\\Development\\jars\\HikariCP-5.0.0.jar"))
+//	implementation( files("C:\\Users\\patlo\\Desktop\\Development\\jars\\HikariCP-5.0.0.jar"))
+	// https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+	implementation("com.zaxxer:HikariCP:2.3.2")
 	//log4j
 	implementation("org.slf4j:slf4j-nop:1.7.30")
 }
